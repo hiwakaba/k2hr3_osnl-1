@@ -56,7 +56,7 @@ help:
 init:
 	python3 -m pip install --upgrade pip
 	python3 -m pip install --upgrade pipenv
-	pipenv install --dev --skip-lock
+	pipenv install --dev
 	pipenv graph
 	pipenv check --use-installed
 
